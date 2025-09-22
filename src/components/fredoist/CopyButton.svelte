@@ -1,9 +1,9 @@
-<script lang="ts">
+<script>
 	import { usePassword } from '@hooks/fredoist/use-password'
 
 	const password = usePassword()
 
-	async function copyPassword(e: Event) {
+	async function copyPassword(e) {
 		e.preventDefault()
 		await navigator.clipboard.writeText($password)
 	}

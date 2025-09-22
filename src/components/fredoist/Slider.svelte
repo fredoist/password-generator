@@ -1,11 +1,11 @@
-<script lang="ts">
+<script>
 	import { useOptions } from '@hooks/fredoist/use-options'
 
 	const options = useOptions()
 	$: bubblePosition = (($options.length - 0) * 100) / (100 - 0)
 
-	async function updateLength(event: Event) {
-		const input = event.target as HTMLInputElement
+	async function updateLength(event) {
+		const input = event.target
 		length = parseInt(input.value)
 		options.update({ length })
 	}

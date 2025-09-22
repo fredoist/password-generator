@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import { usePassword } from '@hooks/fredoist/use-password'
 	import { useOptions } from '@hooks/fredoist/use-options'
 	import { useStrengthMeter } from '@hooks/fredoist/use-strengthmeter'
@@ -9,9 +9,9 @@
 
 	$: $options && password.generate()
 
-	async function copyPassword(event: Event) {
+	async function copyPassword(event) {
 		event.preventDefault()
-		const input = event.target as HTMLInputElement
+		const input = event.target
 		input.select()
 		await navigator.clipboard.writeText($password)
 	}

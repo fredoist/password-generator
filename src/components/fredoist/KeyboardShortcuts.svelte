@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import { fade } from 'svelte/transition'
 	import { useShortcuts } from '@hooks/fredoist/use-shortcuts'
 	import { onMount } from 'svelte'

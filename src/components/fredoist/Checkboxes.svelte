@@ -1,11 +1,11 @@
-<script lang="ts">
+<script>
 	import { useOptions } from '@hooks/fredoist/use-options'
 
 	const options = useOptions()
 	const checkboxes = Object.keys($options).slice(1)
 
-	async function updateCheckbox(event: Event) {
-		const input = event.target as HTMLInputElement
+	async function updateCheckbox(event) {
+		const input = event.target
 		const { name, checked } = input
 		options.update({ [name]: checked })
 	}

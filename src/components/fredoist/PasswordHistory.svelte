@@ -1,10 +1,10 @@
-<script lang="ts">
+<script>
   import { fade } from 'svelte/transition'
 	import { useHistory } from '@hooks/fredoist/use-history'
 
 	const history = useHistory()
 
-	async function copyPassword(password: string) {
+	async function copyPassword(password) {
 		await navigator.clipboard.writeText(password)
 	}
 </script>
