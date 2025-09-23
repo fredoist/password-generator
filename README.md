@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://twitter.com/fredoist">
-    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter">
+    <img src="https://img.shields.io/twitter/follow/fredoist?style=for-the-badge&logo=x&logoColor=ffffff&label=FOLLOW&labelColor=000000&color=rgba(0%2C0%2C0%2C0)" alt="X">
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/alfredogonzalezr">
@@ -21,11 +21,15 @@
   </a>
   &nbsp;
   <a href="https://github.com/fredoist/password-generator/stargazers">
-    <img src="https://img.shields.io/github/stars/fredoist/password-generator.svg?style=for-the-badge" alt="Stargazers">
+    <img src="https://img.shields.io/github/stars/fredoist/password-generator?style=for-the-badge&logo=github" alt="Stargazers">
   </a>
   &nbsp;
   <a href="https://github.com/fredoist/password-generator/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/fredoist/password-generator.svg?style=for-the-badge" alt="License">
+  </a>
+  &nbsp;
+  <a href="https://cyberpassword.surge.sh">
+    <img src="https://tinyurl.com/mvs9usyd" alt="Deployment">
   </a>
   &nbsp;
 </p>
