@@ -9,11 +9,11 @@
 <br />
 <p align="center">
   <a href="https://twitter.com/fredoist">
-    <img src="https://img.shields.io/twitter/follow/fredoist?style=for-the-badge&logo=x&logoColor=ffffff&label=FOLLOW&labelColor=000000&color=rgba(0%2C0%2C0%2C0)" alt="X">
+    <img src="https://img.shields.io/badge/follow-000000?style=for-the-badge&logo=x&logoColor=ffffff&labelColor=000000" alt="X">
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/alfredogonzalezr">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://tinyurl.com/23v6u26b" alt="LinkedIn">
   </a>
   &nbsp;
   <a href="https://www.figma.com/community/file/1167934186210755390">
