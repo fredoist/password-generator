@@ -8,29 +8,17 @@
 </p>
 <br />
 <p align="center">
-  <a href="https://twitter.com/fredoist">
-    <img src="https://img.shields.io/badge/follow-000000?style=for-the-badge&logo=x&logoColor=ffffff&labelColor=000000" alt="X">
-  </a>
+  <a href="https://twitter.com/fredoist"><img src="https://img.shields.io/badge/follow-000000?style=for-the-badge&logo=x&logoColor=ffffff&labelColor=000000" alt="X"></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/alfredogonzalezr">
-    <img src="https://tinyurl.com/23v6u26b" alt="LinkedIn">
-  </a>
+  <a href="https://www.linkedin.com/in/alfredogonzalezr"><img src="https://tinyurl.com/23v6u26b" alt="LinkedIn"></a>
   &nbsp;
-  <a href="https://www.figma.com/community/file/1167934186210755390">
-    <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
-  </a>
+  <a href="https://www.figma.com/community/file/1167934186210755390"><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
   &nbsp;
-  <a href="https://github.com/fredoist/password-generator/stargazers">
-    <img src="https://img.shields.io/github/stars/fredoist/password-generator?style=for-the-badge&logo=github" alt="Stargazers">
-  </a>
+  <a href="https://github.com/fredoist/password-generator/stargazers"><img src="https://img.shields.io/github/stars/fredoist/password-generator?style=for-the-badge&logo=github" alt="Stargazers"></a>
   &nbsp;
-  <a href="https://github.com/fredoist/password-generator/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/fredoist/password-generator.svg?style=for-the-badge" alt="License">
-  </a>
+  <a href="https://github.com/fredoist/password-generator/blob/main/LICENSE"><img src="https://img.shields.io/github/license/fredoist/password-generator.svg?style=for-the-badge" alt="License"></a>
   &nbsp;
-  <a href="https://cyberpassword.surge.sh">
-    <img src="https://tinyurl.com/mvs9usyd" alt="Deployment">
-  </a>
+  <a href="https://cyberpassword.surge.sh"><img src="https://tinyurl.com/mvs9usyd" alt="Deployment"></a>
   &nbsp;
 </p>
 
