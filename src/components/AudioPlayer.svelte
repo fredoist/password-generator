@@ -1,5 +1,5 @@
 <script>
-	import { useAudio } from '@hooks/fredoist/use-audio'
+	import { useAudio } from '@hooks/use-audio'
 
 	const audio = useAudio()
 </script>
@@ -56,7 +56,7 @@
 <audio
 	bind:muted={$audio}
 	bind:paused={$audio}
-	src="/fredoist/on-the-run.mp3"
+	src="/on-the-run.mp3"
 	class="hidden"
 	preload="metadata"
 	controls

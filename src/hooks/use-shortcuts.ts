@@ -1,8 +1,8 @@
-import { writable, get } from 'svelte/store'
-import { usePassword } from '@hooks/fredoist/use-password'
-import { useOptions } from '@hooks/fredoist/use-options'
-import { useHistory } from '@hooks/fredoist/use-history'
-import { useAudio } from '@hooks/fredoist/use-audio'
+import { useAudio } from '@hooks/use-audio'
+import { useHistory } from '@hooks/use-history'
+import { useOptions } from '@hooks/use-options'
+import { usePassword } from '@hooks/use-password'
+import { get, writable } from 'svelte/store'
 
 const modal = writable(false)
 const password = usePassword()

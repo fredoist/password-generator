@@ -1,6 +1,6 @@
 <script>
 	import { fade } from 'svelte/transition'
-	import { useShortcuts } from '@hooks/fredoist/use-shortcuts'
+	import { useShortcuts } from '@hooks/use-shortcuts'
 	import { onMount } from 'svelte'
 
 	const shortcuts = useShortcuts()

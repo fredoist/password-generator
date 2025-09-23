@@ -1,5 +1,5 @@
+import { usePassword } from '@hooks/use-password'
 import { writable } from 'svelte/store'
-import { usePassword } from '@hooks/fredoist/use-password'
 
 const history = writable<{ value: string; timestamp: number }[]>(
 	JSON.parse(localStorage.getItem('fredoist_history')) || []

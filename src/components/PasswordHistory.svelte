@@ -1,6 +1,6 @@
 <script>
   import { fade } from 'svelte/transition'
-	import { useHistory } from '@hooks/fredoist/use-history'
+	import { useHistory } from '@hooks/use-history'
 
 	const history = useHistory()
 

@@ -1,5 +1,5 @@
-import { writable, get } from 'svelte/store'
-import { useOptions } from '@hooks/fredoist/use-options'
+import { useOptions } from '@hooks/use-options'
+import { get, writable } from 'svelte/store'
 
 const NUMBERS = '0123456789'
 const LOWERCASE_LETTERS = 'abcdefghijklmnopqrstuvwxyz'

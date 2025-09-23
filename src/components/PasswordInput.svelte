@@ -1,7 +1,7 @@
 <script>
-	import { usePassword } from '@hooks/fredoist/use-password'
-	import { useOptions } from '@hooks/fredoist/use-options'
-	import { useStrengthMeter } from '@hooks/fredoist/use-strengthmeter'
+	import { usePassword } from '@hooks/use-password'
+	import { useOptions } from '@hooks/use-options'
+	import { useStrengthMeter } from '@hooks/use-strengthmeter'
 
 	const password = usePassword()
 	const options = useOptions()

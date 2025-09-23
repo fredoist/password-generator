@@ -1,5 +1,5 @@
 <script>
-	import { useOptions } from '@hooks/fredoist/use-options'
+	import { useOptions } from '@hooks/use-options'
 
 	const options = useOptions()
 	const checkboxes = Object.keys($options).slice(1)

@@ -1,5 +1,5 @@
 <script>
-	import { usePassword } from '@hooks/fredoist/use-password'
+	import { usePassword } from '@hooks/use-password'
 
 	const password = usePassword()
 

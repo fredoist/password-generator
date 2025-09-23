@@ -1,5 +1,5 @@
+import { usePassword } from '@hooks/use-password'
 import { writable } from 'svelte/store'
-import { usePassword } from '@hooks/fredoist/use-password'
 
 const DEFAULT_VALUES = {
 	score: 0,
