@@ -66,7 +66,7 @@ Find this project source code in the following routes:
 - [hooks](https://github.com/midudev/password-generator/tree/main/src/hooks/fredoist)
 - [assets](https://github.com/midudev/password-generator/tree/main/public/fredoist)
 
-* If you want to try this project only, checkout the [deploy](https://github.com/fredoist/password-generator/tree/deploy) branch.
+\* If you want to try this project only, checkout the [deploy](https://github.com/fredoist/password-generator/tree/deploy) branch.
 
 ## Contribute
 
