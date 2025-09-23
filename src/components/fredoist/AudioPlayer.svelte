@@ -56,8 +56,9 @@
 <audio
 	bind:muted={$audio}
 	bind:paused={$audio}
-	src="https://pouch.jumpshare.com/preview/PAkMDyoIwvSF3TeepHj7AQFcj8fzY2e63DeD1BwITCHnAMu9clSneB6nuHYDv-1n8ZIgV67s4s8I_2d0Gf2Whu0Aiq0dzqFQt0eI5dyl9jVK13PpazZ-UpWTbbTEJkntrEXy3getqz1BNTdm9PtEnG6yjbN-I2pg_cnoHs_AmgI.mp3"
+	src="/fredoist/on-the-run.mp3"
 	class="hidden"
+	preload="metadata"
 	controls
 	loop
 	autoplay
