@@ -36,17 +36,17 @@
 
 ## About the project
 
-A hackathon project built for the Hacktoberfest 2022 event by [midudev](https://github.com/midudev). The project was inspired by the recent release of Cyberpunk: Edgerunners in Netflix.
+A hackathon project built for the Hacktoberfest 2022 event by [midudev](https://github.com/midudev). The project was inspired by the recent release of Cyberpunk: Edgerunners on Netflix.
 
 ## Features
 
-The main hackathon requirements were to create a password generator which included a slider for password length and a copy button. My hackathon entry included the following features:
+The main hackathon requirements were to create a password generator that included a slider for password length and a copy button. My hackathon entry included the following features:
 
 - Randomly generate a password.
-- Change the desired password length, by default is set to 18 characters.
-- Set chars to include in password such as lowercase letters, uppercase letters, numbers, and symbols.
-- See password strength as you generate it.
-- Past generated password log.
+- Change the desired password length, which is set to 18 characters by default.
+- Set the characters to include in the password, such as lowercase letters, uppercase letters, numbers, and symbols.
+- View password strength as you generate it.
+- Log of previously generated passwords.
 - Keyboard shortcuts for key features.
 - Ambient sound and animations.
 
@@ -59,15 +59,15 @@ The main hackathon requirements were to create a password generator which includ
 
 ## Source Code
 
-Find this project source code in the following routes:
+You can find the source code for this project in the following directories:
 
 - [pages/entry](https://github.com/midudev/password-generator/tree/main/src/pages/entry/fredoist)
 - [components](https://github.com/midudev/password-generator/tree/main/src/components/fredoist)
 - [hooks](https://github.com/midudev/password-generator/tree/main/src/hooks/fredoist)
 - [assets](https://github.com/midudev/password-generator/tree/main/public/fredoist)
 
-\* If you want to try this project only, checkout the [deploy](https://github.com/fredoist/password-generator/tree/deploy) branch.
+\* If you want to try this project only, check out the [deploy](https://github.com/fredoist/password-generator/tree/deploy) branch.
 
 ## Contribute
 
-This project is not accepting PRs at this moment, but you can always [open an issue](https://github.com/fredoist/password-generator/issues/new) if you find a bug.
+This project is not accepting PRs at the moment, but you can always [open an issue](https://github.com/fredoist/password-generator/issues/new) if you find a bug.
