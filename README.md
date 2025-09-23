@@ -61,10 +61,12 @@ The main hackathon requirements were to create a password generator which includ
 
 Find this project source code in the following routes:
 
-- [pages](https://github.com/midudev/password-generator/tree/main/src/pages/fredoist)
+- [pages/entry](https://github.com/midudev/password-generator/tree/main/src/pages/entry/fredoist)
 - [components](https://github.com/midudev/password-generator/tree/main/src/components/fredoist)
 - [hooks](https://github.com/midudev/password-generator/tree/main/src/hooks/fredoist)
 - [assets](https://github.com/midudev/password-generator/tree/main/public/fredoist)
+
+* If you want to try this project only, checkout the [deploy](https://github.com/fredoist/password-generator/tree/deploy) branch.
 
 ## Contribute
 
