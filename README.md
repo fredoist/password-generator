@@ -1,122 +1,65 @@
-<a href="https://hacktoberfest-2022.vercel.app/">
-<img src="public/banner_gh.jpg">
+<a href="https://github.com/fredoist/password-generator">
+  <img src=".github/media/thumbnail.png" alt="Thumbnail" align="center">
 </a>
+<br />
+<h3 align="center">Password Generator</h3>
+<p align="center">
+  Cyberpunk-themed Password Generator built using Astro and Svelte
+</p>
+<br />
+<p align="center">
+  <a href="https://twitter.com/fredoist"><img src="https://img.shields.io/badge/follow-000000?style=for-the-badge&logo=x&logoColor=ffffff&labelColor=000000" alt="X"></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/alfredogonzalezr"><img src="https://tinyurl.com/23v6u26b" alt="LinkedIn"></a>
+  &nbsp;
+  <a href="https://www.figma.com/community/file/1167934186210755390"><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
+  &nbsp;
+  <a href="https://github.com/fredoist/password-generator/stargazers"><img src="https://img.shields.io/github/stars/fredoist/password-generator?style=for-the-badge&logo=github" alt="Stargazers"></a>
+  &nbsp;
+  <a href="https://github.com/fredoist/password-generator/blob/main/LICENSE"><img src="https://img.shields.io/github/license/fredoist/password-generator.svg?style=for-the-badge" alt="License"></a>
+  &nbsp;
+  <a href="https://cyberpassword.surge.sh"><img src="https://tinyurl.com/mvs9usyd" alt="Deployment"></a>
+  &nbsp;
+</p>
 
-<div align="center">
-	<h1>¡Contribuye a un proyecto de código abierto!</h1>
-	<p>🚀 Soluciona el reto y participa en la Hacktoberfest</p>
+## About the project
 
-![GitHub stars](https://img.shields.io/github/stars/midudev/hacktoberfest-2022)
-![GitHub issues](https://img.shields.io/github/issues/midudev/hacktoberfest-2022)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/midudev/hacktoberfest-2022)
-![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/midudev/hacktoberfest-2022)
+A hackathon project built for the Hacktoberfest 2022 event by [midudev](https://github.com/midudev). The project was inspired by the recent release of Cyberpunk: Edgerunners on Netflix.
 
-</div>
+## Features
 
-## 🤔 ¿Qué es la Hacktoberfest?
+The main hackathon requirements were to create a password generator that included a slider for password length and a copy button. My hackathon entry included the following features:
 
-La **[Hacktoberfest](https://hacktoberfest.com/)** es un evento anual organizado por [DigitalOcean](https://www.digitalocean.com/) y [DEV](https://dev.to/), que consiste en contribuir a proyectos de código abierto y ganar una camiseta gratis.
+- Randomly generate a password.
+- Change the desired password length, which is set to 18 characters by default.
+- Set the characters to include in the password, such as lowercase letters, uppercase letters, numbers, and symbols.
+- View password strength as you generate it.
+- Log of previously generated passwords.
+- Keyboard shortcuts for key features.
+- Ambient sound and animations.
 
-## 🚀 ¿Cómo participar?
+## Built using
 
-> 🚧 Necesitarás la extensión [Astro para Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode) y [Nodejs 16+](https://nodejs.org/en/).
+[![Astro](https://img.shields.io/badge/Astro-FF5D01.svg?style=for-the-badge&logo=Astro&logoColor=white)](https://astro.build)
+[![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)](https://svelte.dev)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338BDF8.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 
-1. **Regístrate en [Hacktoberfest](https://hacktoberfest.com/)**:
+## Get started
 
-- Clic en **Start Hacking**.
-- Inicia sesión con GitHub o GitLab.
-
-2. **Crea un fork de este repositorio**:
-
-- Clic en _Fork_ en la esquina superior derecha o haz click [aquí](https://github.com/midudev/hacktoberfest-2022/fork).
-
-3. **Clona el repositorio:**
+To get started, clone the repository and install the dependencies:
 
 ```bash
-git clone git@github.com:TU_USUARIO/hacktoberfest-2022.git
-```
-
-4. **Instala las dependencias:**
-
-```bash
-npm install
-# o
+git clone https://github.com/fredoist/password-generator.git
+cd password-generator
 pnpm install
-# o
-yarn install
 ```
 
-5. **Crea una página en**:
-
-```txt
-/pages/entry/<tu-nombre-de-usuario-en-github>/index.astro
-```
-
-6. **Ejecuta el proyecto:**
+Run the development server:
 
 ```bash
-npm run dev
-# o
 pnpm run dev
-# o
-yarn dev
 ```
 
-7. **Soluciona el reto que se indica en [la página principal](https://hacktoberfest-2022.vercel.app/)** y happy hacking 🥳.
+## Contribute
 
-## 📝 Reglas
-
-- ✅ Puedes usar cualquier framework dentro de esta lista: React, Vue, Svelte, Preact y Solid. También puedes usar Vanilla JavaScript.
-- ❌ NO puedes usar dependencias de terceros. Nada de npm install, ni yarn add ni similares.
-- ✅ Se puede utilizar CSS y Tailwind pero...
-- ❌ NO se puede utilizar otro framework CSS como Bootstrap, Bulma, NextUI, Material UI, etc... ni tampoco SASS, Stylus o similares.
-- ❌ No copies soluciones de otros participantes o soluciones de fuera. ¡La idea es que practiques y te esfuerces!
-- ✅ Crea tus PRs del **1 al 31 de octubre**.
-- ❌ No uses ni modifiques código o componentes de otros participantes.
-- ❌ No modifiques código de fuera de tus carpetas (a no ser que sea exactamente para arreglar un problema de la página).
-- ❌ NO USES ESTILOS GLOBALES. NO ESTILES etiquetas. Usa siempre un selector muy específico (por ejemplo, una id con tu nombre) y a partir de ahí estila lo que quieras de tu solución. Así evitamos conflictos entre estilos.
-- ✅ Si necesitas crear componentes auxiliares para tu solución, crea una carpeta en:
-
-```bash
- components/<nombre-de-usuario-en-github>/*
-```
-
-## 🎁 Premios
-
-Además de poder conseguir la camiseta de la Hacktoberfest, haremos una votación para elegir las mejores soluciones. Los premios son:
-
-- 🥇 Teclado mecánico [Keychron K3 v2 RGB Backlight](https://www.keychron.com/products/keychron-k3-wireless-mechanical-keyboard?variant=32220198633561).
-- 🥈 [Cheque regalo para Red Bubble](https://www.redbubble.com/es/) por valor de 30€.
-- 🥉 [Libro de Aprendiendo Git](https://leanpub.com/aprendiendo-git) + [Descubre Svelte](https://leanpub.com/descubre-svelte).
-
-## 📝 Notas
-
-Si usas Solid o Preact, debes indicar el [`jsxImportSource`](https://www.typescriptlang.org/tsconfig#jsxImportSource) en un comentario pragma. Haz esto en la primera línea de cada archivo JSX/TSX.
-
-```jsx
-// Para Preact
-/** @jsxImportSource preact */
-
-// Para Solid
-/** @jsxImportSource solid-js */
-```
-
-Para poder ejeuctar solo los test que esten en tus carpetas tienes que ir al archivo <code>jest.config.js</code> y modifica el parametro <code>testMatch</code>
-
-```JSON
-{
-	"testMatch": ["**/<tu-nombre-de-usuario-en-github>/**/*.spec.{js,ts}"]
-}
-```
-
-**Nota: tendras que deshacer este cambio antes de hacer commit**
-
-<br>
-
-Más información al respecto [aquí](https://docs.astro.build/es/guides/typescript/#soluci%C3%B3n-de-problemas).
-
-## 🤗 Contribuidores
-
-<a href="https://github.com/midudev/hacktoberfest-2022/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=midudev/hacktoberfest-2022" />
-</a>
+This project is not accepting PRs at the moment, but you can always [open an issue](https://github.com/fredoist/password-generator/issues/new) if you find a bug.
